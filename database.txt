@@ -7,15 +7,10 @@ create table Shoe(
 	type varchar(50),
 	image varchar(50)
 );
-
 INSERT INTO `shoe`(`name`, `price`, `color`, `type`, `image`) VALUES ("Bitis", 600000, "black", "sport", "bitis");
-
 INSERT INTO `shoe`(`name`, `price`, `color`, `type`, `image`) VALUES ("FINE", 100000, "white", "sport", "fine");
-
 INSERT INTO `shoe`(`name`, `price`, `color`, `type`, `image`) VALUES ("Sandal X", 800000, "white", "sandal", "sandal-x");
-
 INSERT INTO `shoe`(`name`, `price`, `color`, `type`, `image`) VALUES ("Dép tổ ong", 100000, "blue", "sandal", "hive");
-
 INSERT INTO `shoe`(`name`, `price`, `color`, `type`, `image`) VALUES ("Giày thượng đình", 750000, "white", "sport", "thuong_dinh");
 
 drop table User;
@@ -26,6 +21,5 @@ create table User(
 	fullName varchar(50),
 	role varchar(20)
 );
-
 INSERT INTO `user`(`username`, `fullName` ,`password`,`role`) VALUES ('admin', 'Administator' ,'admin', 'admin');
 INSERT INTO `user`(`username`, `fullName` ,`password`,`role`) VALUES ('nam34', 'Le Nam', '123', 'user');
